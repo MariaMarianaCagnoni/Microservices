@@ -19,7 +19,7 @@ public class EmployeeController {
 
     private EmployeeRepository repository;
 
-    @Autowired
+
     public EmployeeController(EmployeeRepository repository) {
         this.repository = repository;
     }

@@ -22,10 +22,10 @@ public class DepartmentController {
         this.departmentRepository = departmentRepository;
     }
 
-    @Autowired
+
     private EmployeeClient employeeClient;
 
-    @Autowired
+
     private DepartmentRepository departmentRepository;
 
 
